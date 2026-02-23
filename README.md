@@ -161,61 +161,7 @@ Follow these steps to run the project on your local machine:
 That's it! You’re ready to explore the application locally. 🚀
 
 ---
-## Troubleshooting
 
-### Common Installation Issues
-- **Error: `npm install` fails**: 
-  - Ensure that [Node.js](https://nodejs.org/en/download/) and npm are correctly installed on your machine. You can check this by running `node -v` and `npm -v` in your terminal.
-  - If you encounter permission issues, try using `sudo npm install` (for macOS/Linux) or running the command prompt as an administrator (for Windows).
-
-### Problems with Starting the Server
-- **Error: `Cannot find module 'express'`**:
-  - This error usually indicates that the required packages haven't been installed. Make sure to run `npm install` in both the root and `client` directories.
-- **Server crashes on startup**: 
-  - Check the console logs for any errors that may provide hints about what went wrong. Common issues could be related to incorrect environment variables or database connection strings.
-
-### Issues Related to Dependencies
-- **Version conflicts**:
-  - Ensure that all dependencies in your `package.json` are compatible. If you see warnings or errors during installation, consider using `npm audit fix` to resolve vulnerabilities.
-
-### FAQs
-- **Q: How do I reset my local database?**
-  - A: You can drop the existing database and run your migrations or seed scripts again. Make sure to back up any important data before doing this.
-  
-- **Q: How can I contact support?**
-  - A: If you have further issues or questions, please open an issue in this repository, and we'll be happy to help!
-
-### Additional Suggestions
-- **Clarity**: Make sure the instructions are as clear as possible. For example, specify where to run commands (in which directory).
-- **Links**: If you refer to any external resources (like Node.js downloads), adding hyperlinks could be beneficial.
-
-## Using GitHub Desktop
-
-Alternatively, you can use GitHub Desktop to manage the repository:
-
-1. **Download GitHub Desktop** from [here](https://desktop.github.com/).
-2. **Clone the Repository** by signing in to your GitHub account, selecting the repository, and clicking "Clone".
-3. **Make Changes**: Edit code locally using your favorite editor.
-4. **Commit & Push**: Commit your changes and push them to GitHub via the GitHub Desktop interface.
-
----
-
-## In-Depth Project Analysis
-
-For a detailed overview of how the project works, please read the [Project Details](PROJECT_DETAILS.md) documentation. This will give you a deep dive into the architecture and design decisions. 🧠
-
----
-
-## Our Contributors
-
-<h3 align="center">A big THANK YOU to all our contributors! 🙌</h3> 
-<div align="center">
-  <img src="https://contrib.rocks/image?repo=Trisha-tech/OnlineBookSales" alt="Contributors">
-</div>
-
----
-
-## Contact Information
 
 If you have any questions or feedback, feel free to reach out via **GitHub**. You can also join our discussion forum.
 
